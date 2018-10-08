@@ -1,3 +1,3 @@
-FROM gcr.io/google-samples/node-hello:1.0
+FROM gcr.io/kubernetes-helm/tiller:v2.11.0
 MAINTAINER wajika
 
