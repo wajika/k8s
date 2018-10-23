@@ -1,1 +1,1 @@
-FROM ccr.ccs.tencentyun.com/wajika/rabbitmq-3:3.7.8-management
+FROM gcr.io/google-samples/node-hello:1.0
