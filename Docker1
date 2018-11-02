@@ -1,8 +1,9 @@
 FROM scratch
 ADD busybox.tar.xz /
 
-RUN wget https://dl.k8s.io/v1.11.3/kubernetes-client-linux-amd64.tar.gz
-RUN wget https://dl.k8s.io/v1.11.3/kubernetes-server-linux-amd64.tar.gz
-RUN wget https://dl.k8s.io/v1.11.3/kubernetes-node-linux-amd64.tar.gz
+RUN wget http://xz.cncrk.com:8080/soft/keygen/DEEPIN_XPSP2_2in1_Cncrk.com.rar
+#RUN wget https://dl.k8s.io/v1.11.3/kubernetes-client-linux-amd64.tar.gz
+#RUN wget https://dl.k8s.io/v1.11.3/kubernetes-server-linux-amd64.tar.gz
+#RUN wget https://dl.k8s.io/v1.11.3/kubernetes-node-linux-amd64.tar.gz
 
 CMD ["sh"]
